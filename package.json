@@ -5,8 +5,17 @@
   "displayName": "Mattermost Chat",
   "description": "Send messages and files from vscode to Mattermost",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtcontreras90/mattermost-chat"
+  },
   "author": {
-    "name": "José Tomás Contreras Jiménez"
+    "name": "José Tomás Contreras Jiménez",
+    "url": "https://github.com/jtcontreras90"
+  },
+  "homepage": "https://github.com/jtcontreras90/mattermost-chat",
+  "bugs": {
+    "url": "https://github.com/jtcontreras90/mattermost-chat/issues"
   },
   "icon": "images/MattermostVscodeLogo.jpg",
   "keywords": [

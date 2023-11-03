@@ -8,17 +8,17 @@ Extension for Mattermost communication.
   * User
   * Channel
 
-![Send message to user](images/SendMessage.gif)
+![Send message to user](https://github.com/jtcontreras90/mattermost-chat/blob/master/images/SendMessage.gif?raw=true)
 * Send file to
   * User
   * Channel
 
-![Send file to user](images/SendFile.gif)
+![Send file to user](https://github.com/jtcontreras90/mattermost-chat/blob/master/images/SendFile.gif?raw=true)
 * Send snippet to
   * User
   * Channel
 
-![Send snippet to user](images/SendSnippet.gif)
+![Send snippet to user](https://github.com/jtcontreras90/mattermost-chat/blob/master/images/SendSnippet.gif?raw=true)
 
 
 ## Extension Settings
