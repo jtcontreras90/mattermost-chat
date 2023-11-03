@@ -1,0 +1,10 @@
+{
+  "mattermost-chat.sendCodeSnippetToUser.title": "Mattermost chat: Enviar a usuario",
+  "mattermost-chat.sendNewMessageToUser.title": "Mattermost chat: Enviar mensaje a usuario",
+  "mattermost-chat.sendFileToUser.title": "Mattermost chat: Enviar archivo a usuario",
+  "mattermost-chat.sendCodeSnippetToChannel.title": "Mattermost chat: Enviar a canal",
+  "mattermost-chat.sendNewMessageToChannel.title": "Mattermost chat: Enviar mensaje a canal",
+  "mattermost-chat.sendFileToChannel.title": "Mattermost chat: Send archivo a canal",
+  "MattermostChat.server.description": "URL de tu servidor de Mattermost",
+  "MattermostChat.token.description": "Token usado para enviar mensajes en tu nombre"
+}

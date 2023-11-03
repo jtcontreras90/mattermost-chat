@@ -1,0 +1,10 @@
+{
+  "mattermost-chat.sendCodeSnippetToUser.title": "Mattermost chat: Send to user",
+  "mattermost-chat.sendNewMessageToUser.title": "Mattermost chat: Send Message to user",
+  "mattermost-chat.sendFileToUser.title": "Mattermost chat: Send File to user",
+  "mattermost-chat.sendCodeSnippetToChannel.title": "Mattermost chat: Send to channel",
+  "mattermost-chat.sendNewMessageToChannel.title": "Mattermost chat: Send Message to channel",
+  "mattermost-chat.sendFileToChannel.title": "Mattermost chat: Send File to channel",
+  "MattermostChat.server.description": "URL of Mattermost Server",
+  "MattermostChat.token.description": "String used to send messages on your behalf"
+}

@@ -1,0 +1,14 @@
+{
+  "Enter your Mattermost server.": "Ingresa tu servidor de Mattermost",
+  "Enter your MFA token (optional)": "Ingresa tu token de tu dispositivo de MFA (opcional)",
+  "Enter your personal access token": "Ingresa tu token de acceso personal",
+  "Enter your password": "Ingresa tu contraseña",
+  "Enter your user": "Ingresa tu usuario",
+  "Select authentication method": "Selecciona un método de autenticación",
+  "Select the channel": "Selecciona el canal",
+  "Select the user": "Selecciona al usuario",
+  "Use Personal Access Token": "Usar token de acceso personal",
+  "Use User and Password": "Usar usuario y contraseña",
+  "Write your message": "Escribe tu mensaje",
+  "Your token has expired or the credentials are incorrect. Please try again.": "Tu token ha expirado o las credenciales son incorrectas. Por favor, intenta de nuevo."
+}

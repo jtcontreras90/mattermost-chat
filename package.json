@@ -1,0 +1,111 @@
+{
+  "name": "mattermost-chat",
+  "publisher": "JTContreras",
+  "license": "MIT",
+  "displayName": "Mattermost Chat",
+  "description": "Send messages and files from vscode to Mattermost",
+  "version": "0.0.1",
+  "author": {
+    "name": "José Tomás Contreras Jiménez"
+  },
+  "icon": "images/MattermostVscodeLogo.jpg",
+  "keywords": [
+    "chat",
+    "mattermost",
+    "integration",
+    "communication",
+    "collaboration"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "l10n": "./l10",
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Mattermost Chat",
+      "properties": {
+        "mattermostChat.token": {
+          "type": "string",
+          "markdownDescription": "%mattermostChat.token.description%"
+        },
+        "mattermostChat.server": {
+          "type": "string",
+          "markdownDescription": "%mattermostChat.server.description%"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "mattermost-chat.sendNewMessageToUser",
+        "title": "%mattermost-chat.sendNewMessageToUser.title%"
+      },
+      {
+        "command": "mattermost-chat.sendFileToUser",
+        "title": "%mattermost-chat.sendFileToUser.title%"
+      },
+      {
+        "command": "mattermost-chat.sendCodeSnippetToUser",
+        "title": "%mattermost-chat.sendCodeSnippetToUser.title%"
+      },
+      {
+        "command": "mattermost-chat.sendNewMessageToChannel",
+        "title": "%mattermost-chat.sendNewMessageToChannel.title%"
+      },
+      {
+        "command": "mattermost-chat.sendFileToChannel",
+        "title": "%mattermost-chat.sendFileToChannel.title%"
+      },
+      {
+        "command": "mattermost-chat.sendCodeSnippetToChannel",
+        "title": "%mattermost-chat.sendCodeSnippetToChannel.title%"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "mattermost-chat.sendCodeSnippetToUser",
+          "title": "%mattermost-chat.sendCodeSnippetToUser.title%",
+          "group": "Mattermost Chat"
+        },
+        {
+          "command": "mattermost-chat.sendCodeSnippetToChannel",
+          "title": "%mattermost-chat.sendCodeSnippetToChannel.title%",
+          "group": "Mattermost Chat"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.77.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "@vscode/l10n-dev": "^0.0.25",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.39.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@vscode/l10n": "^0.0.13",
+    "axios": "^1.4.0"
+  }
+}

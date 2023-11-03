@@ -1,0 +1,14 @@
+{
+  "Enter your Mattermost server.": "Enter your Mattermost server.",
+  "Enter your MFA token (optional)": "Enter your MFA token (optional)",
+  "Enter your personal access token": "Enter your personal access token",
+  "Enter your password": "Enter your password",
+  "Enter your user": "Enter your user",
+  "Select authentication method": "Select authentication method",
+  "Select the channel": "Select the channel",
+  "Select the user": "Select the user",
+  "Use Personal Access Token": "Use Personal Access Token",
+  "Use User and Password": "Use User and Password",
+  "Write your message": "Write your message",
+  "Your token has expired or the credentials are incorrect. Please try again.": "Your token has expired or the credentials are incorrect. Please try again."
+}
