@@ -20,6 +20,8 @@ Extension for Mattermost communication.
 
 ![Send snippet to user](https://github.com/jtcontreras90/mattermost-chat/blob/master/images/SendSnippet.gif?raw=true)
 
+* Refresh saved info: repopulates information about teams, channels and users if needed.
+
 
 ## Extension Settings
 
