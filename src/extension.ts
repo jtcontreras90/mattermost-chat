@@ -38,6 +38,10 @@ export function activate(context: vscode.ExtensionContext) {
     mattermost.sendCodeSnippetToChannel();
   });
   context.subscriptions.push(sendSnippetToChannelDisposable);
+  const refreshInfoDisposable = vscode.commands.registerCommand('mattermost-chat.refreshInfo', () => {
+    mattermost.populateUpdatableInfo(true);
+  });
+  context.subscriptions.push(refreshInfoDisposable);
 }
 
 // This method is called when your extension is deactivated

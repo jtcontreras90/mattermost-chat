@@ -205,7 +205,7 @@ export class Mattermost {
     this.ready = true;
   }
 
-  private async populateUpdatableInfo(force = false) {
+  async populateUpdatableInfo(force = false) {
     await this.populateTeams(force);
     await this.populateChannels(force);
     await this.populateUsers(force);

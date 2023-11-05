@@ -1,4 +1,5 @@
 {
+  "mattermost-chat.refreshInfo.title": "Mattermost chat: Refresh saved info",
   "mattermost-chat.sendCodeSnippetToUser.title": "Mattermost chat: Send to user",
   "mattermost-chat.sendNewMessageToUser.title": "Mattermost chat: Send Message to user",
   "mattermost-chat.sendFileToUser.title": "Mattermost chat: Send File to user",

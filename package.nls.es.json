@@ -1,4 +1,5 @@
 {
+  "mattermost-chat.refreshInfo.title": "Mattermost chat: Refrescar información guardada",
   "mattermost-chat.sendCodeSnippetToUser.title": "Mattermost chat: Enviar a usuario",
   "mattermost-chat.sendNewMessageToUser.title": "Mattermost chat: Enviar mensaje a usuario",
   "mattermost-chat.sendFileToUser.title": "Mattermost chat: Enviar archivo a usuario",
