@@ -4,7 +4,7 @@
   "license": "MIT",
   "displayName": "Mattermost Chat",
   "description": "Send messages and files from vscode to Mattermost",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jtcontreras90/mattermost-chat"

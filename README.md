@@ -37,3 +37,7 @@ This extension doesn't validate inputs (length or file size).
 ### 0.0.1
 
 Initial release of Mattermost Chat
+
+### 0.0.2
+
+Added "Refresh saved info" functionality
