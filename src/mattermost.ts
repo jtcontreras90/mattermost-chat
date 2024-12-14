@@ -219,7 +219,7 @@ export class Mattermost {
     } catch (error) {
       if (axios.isAxiosError(error) && error.response?.status == 401) {
         while (!this.ready) {
-          this.populateInfo(true);
+          await this.populateInfo(true);
         }
       }
     }
